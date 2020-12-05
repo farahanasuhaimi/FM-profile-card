@@ -7,9 +7,10 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/style.css" media="(max-width: 1440px)">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/mobile.css" media="(max-width: 375px)">
 
 </head>
 
@@ -33,14 +34,19 @@
     </div>
 
     <div class="third-component">
-      <div class="likes1">
-        <h1 id="likes">80K</h1>
-        <h1 id="likes">803K</h1>
-        <h1 id="likes">1.4K</h1>
+
+      <div class="follower">
+        <h1>80K</h1>
+        <p class="subtitle">Followers</p>
       </div>
-      <div class="likes2">
-        <p class="subtitle">Follower</p>
+
+      <div class="follower">
+        <h1>803K</h1>
         <p class="subtitle">Likes</p>
+      </div>
+
+      <div class="follower">
+        <h1>1.4K</h1>
         <p class="subtitle">Photos</p>
       </div>
     </div>

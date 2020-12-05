@@ -10,10 +10,9 @@ html {
 }
 
 body {
-  min-height: 70vh;
   font-family: "Kumbh Sans", sans-serif;
-  background: url("images/bg-pattern-top.svg") no-repeat -25vw -81vh,
-    url("images/bg-pattern-bottom.svg") no-repeat 50vw 40vh;
+  background: url("images/bg-pattern-top.svg") no-repeat -40vw -90vh,
+    url("images/bg-pattern-bottom.svg") no-repeat 50vw 50vh;
   background-color: #19a2ae;
 }
 
@@ -21,7 +20,7 @@ body {
 
 .parent {
   position: relative;
-  height: 350px;
+  height: 377px;
   width: 350px;
   margin: 15% auto;
   background-color: azure;
@@ -75,32 +74,28 @@ h1 {
 }
 
 .third-component {
-  display: flex;
-  flex-direction: column;
-  height: 90px;
+  height: 87px;
   width: 350px;
+  position: absolute;
+  top: 280px;
+  left: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   border-radius: 0 0 2rem 2rem;
   border-top: 0.001rem solid hsl(0, 0%, 59%);
-  position: absolute;
-  top: 260px;
-  left: 0px;
 }
 
-.likes1,
-.likes2 {
+.follower {
+  padding: 0 2rem;
   display: flex;
-  justify-content: center;
-  position: relative;
-  top: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
-#likes {
-  margin-bottom: 0px;
-  padding-bottom: 8px;
-  margin: 0 15px;
-}
 .subtitle {
-  margin: 0 31px;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 /* Attribution Style */
 
